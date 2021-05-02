@@ -1,0 +1,13 @@
+git init --> to create a git repository in the folder
+
+
+****** unix commands *******
+touch <filename> to create files
+start <filename> to open the files
+
+
+
+****** Git commands **************
+git status -- to get the status of the changes
+git add -- to stage the changes which needs to be commited
+git rm --cached <<filename>> --> to exclude from the staging area
