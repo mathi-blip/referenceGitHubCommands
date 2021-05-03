@@ -1,3 +1,5 @@
+### head -> master
+
 git init --> to create a git repository in the folder
 
 
@@ -9,5 +11,15 @@ start <filename> to open the files
 
 ****** Git commands **************
 git status -- to get the status of the changes
+git log -- to see the previous commits on the branch
+
+########## Git Branching:
+git branch --> will give list of all branches and highlight the current branch by giving * appended to the prefix
+git branch <<branch name>>--> 
+
 git add -- to stage the changes which needs to be commited
 git rm --cached <<filename>> --> to exclude from the staging area
+git add . -- add all the changed files to the changing area
+git commit --amend --> it will add files or correct the imediate last commit.
+
+.gitignore --> will have a list of files, folders or format of the file which should be ignore during commits
