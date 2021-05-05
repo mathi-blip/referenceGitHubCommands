@@ -26,6 +26,7 @@ git commit --amend --> it will add files or correct the imediate last commit.
 
 ########## Git Branching:
 git branch --> will give list of all branches and highlight the current branch by giving * appended to the prefix
+git branch -v --> will result all the branches, with latest commit points
 git branch <<branch name>>--> will create new branch
 git switch <<branch name>> --> will switch to the branch which is specified
 git switch -c <<branch name>> --> create a branch and then switch to that branch
@@ -34,6 +35,7 @@ git checkout -b <<branch name>> --> same as switch -c
 git branch -d <<bn>> --> deletes the branch if its merged and while deleting should not be on the same branch
 git branch -D <<bn>> --> force delete your changes
 git branch -m <<new bn>> --> will rename the branch 
+
 
 ###########GIt MERGING#########################
 
