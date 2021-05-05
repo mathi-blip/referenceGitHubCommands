@@ -6,20 +6,37 @@ git init --> to create a git repository in the folder
 ****** unix commands *******
 touch <filename> to create files
 start <filename> to open the files
+cd
+pwd
+
 
 
 
 ****** Git commands **************
 git status -- to get the status of the changes
 git log -- to see the previous commits on the branch
-
-########## Git Branching:
-git branch --> will give list of all branches and highlight the current branch by giving * appended to the prefix
-git branch <<branch name>>--> 
-
 git add -- to stage the changes which needs to be commited
 git rm --cached <<filename>> --> to exclude from the staging area
 git add . -- add all the changed files to the changing area
 git commit --amend --> it will add files or correct the imediate last commit.
 
 .gitignore --> will have a list of files, folders or format of the file which should be ignore during commits
+
+
+
+########## Git Branching:
+git branch --> will give list of all branches and highlight the current branch by giving * appended to the prefix
+git branch <<branch name>>--> will create new branch
+git switch <<branch name>> --> will switch to the branch which is specified
+git switch -c <<branch name>> --> create a branch and then switch to that branch
+git checkout <<branch name>> --> same as switch
+git checkout -b <<branch name>> --> same as switch -c
+git branch -d <<bn>> --> deletes the branch if its merged and while deleting should not be on the same branch
+git branch -D <<bn>> --> force delete your changes
+git branch -m <<new bn>> --> will rename the branch 
+
+###########GIt MERGING#########################
+
+
+
+
