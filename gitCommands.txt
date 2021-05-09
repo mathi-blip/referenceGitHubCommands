@@ -23,7 +23,6 @@ git commit --amend --> it will add files or correct the imediate last commit.
 .gitignore --> will have a list of files, folders or format of the file which should be ignore during commits
 
 
-
 ########## Git Branching:
 git branch --> will give list of all branches and highlight the current branch by giving * appended to the prefix
 git branch -v --> will result all the branches, with latest commit points
@@ -42,7 +41,5 @@ git branch -m <<new bn>> --> will rename the branch
 1. Go to the branch where you want to merge the changes
 2. git merge <<bn>> will merge the branch
 
-
-
-
+#######################################conflict changes################ check
 
