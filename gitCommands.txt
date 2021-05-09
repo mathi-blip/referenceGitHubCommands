@@ -39,6 +39,10 @@ git branch -m <<new bn>> --> will rename the branch
 
 ###########GIt MERGING#########################
 
+1. Go to the branch where you want to merge the changes
+2. git merge <<bn>> will merge the branch
+
+
 
 
 
