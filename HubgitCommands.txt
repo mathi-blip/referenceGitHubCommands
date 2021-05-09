@@ -1,0 +1,12 @@
+git clone <<url>>
+
+git remote
+git remote -v --> to get the github url
+
+#########to create connection between local and github repo
+git remote add origin https://github.com/mathi-blip/referenceGitHubCommands.git
+
+git remote rename <<old>> <<new>>
+git remote remove <<name>>
+
+git 
