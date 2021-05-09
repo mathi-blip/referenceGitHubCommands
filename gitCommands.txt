@@ -35,6 +35,16 @@ git branch -d <<bn>> --> deletes the branch if its merged and while deleting sho
 git branch -D <<bn>> --> force delete your changes
 git branch -m <<new bn>> --> will rename the branch 
 
+########### Git Diff commands
+git diff --> will give diff between last commits and latest changes
+git diff --staged or -- cached --> will list the changes between the staging area and our last commit.
+* to view changes within a specific file use the below command.
+	git diff Head [filename]
+	git diff --staged[filename]
+git diff branch1..branch2 --> will list the changes between the tips of branch1 and branch2
+ 
+
+ 
 
 ###########GIt MERGING#########################
 
@@ -42,4 +52,6 @@ git branch -m <<new bn>> --> will rename the branch
 2. git merge <<bn>> will merge the branch
 
 #######################################conflict changes################ check
+
+hello there
 
