@@ -23,3 +23,8 @@ git add . -- add all the changed files to the changing area
 git commit --amend --> it will add files or correct the imediate last commit.
 
 .gitignore --> will have a list of files, folders or format of the file which should be ignore during commits
+
+
+
+
+#########################################conflict changes################ check
