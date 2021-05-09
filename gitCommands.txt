@@ -17,6 +17,7 @@ git status -- to get the status of the changes
 git log -- to see the previous commits on the branch
 git add -- to stage the changes which needs to be commited
 git rm --cached <<filename>> --> to exclude from the staging area
+git restore <<fileName>> --> to unstage the file
 git add . -- add all the changed files to the changing area
 git commit --amend --> it will add files or correct the imediate last commit.
 
@@ -42,9 +43,17 @@ git diff --staged or -- cached --> will list the changes between the staging are
 	git diff Head [filename]
 	git diff --staged[filename]
 git diff branch1..branch2 --> will list the changes between the tips of branch1 and branch2
- 
 
  
+
+##############GIT STASHING###########################
+git stash --> to stash the files
+git stash pop --> to apply the latest stash to the branch
+git stash apply --> if we want to apply this changes to multiple branches, we can use this commands.
+--> Working with multiple stashes
+git stash apply <<apply id>>
+git stash drop <<>stash id>
+git stash clear --> will clear the all the stashing
 
 ###########GIt MERGING#########################
 
